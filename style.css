@@ -1,0 +1,568 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* HEADING */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 6.93%;
+}
+
+  .logo {
+    width: 189px;
+    height: 47px;
+  }
+
+  /* NAVIGATION */
+
+  .hamburger {
+    display: none;
+  }
+
+  .site-nav .nav-list {
+    margin-top: 15px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+    .site-nav .nav-list .nav-item {
+      float: left;
+      padding: 0 22px;
+      border-right: 1px solid #626262;
+      line-height: 15px;
+    }
+
+    .site-nav .nav-list .nav-item:last-child {
+      border-right: 0;
+    }
+
+      .nav-list .nav-item a {
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #626262;
+      }
+
+      .nav-list .nav-item a:hover {
+        color: #00AEFF;
+      }
+
+      .nav-item.nav-active a {
+        color: #00AEFF;
+      }
+
+/* SEARCH FIELD */
+
+  .btn-search-mobile {
+    display: none;
+  }
+
+  .searchbox {
+    display: flex;
+    width: 170px;
+    height: 30px;
+    margin-top: 7px;
+    padding: 2px;
+  }
+
+    input.search-field {
+      min-width: 62px;
+      width: 80%;
+      height: 30px;
+      border: 0;
+      padding: 2px;
+      background-color: #F1F3F6;
+      font-style: italic;
+    }
+
+    input.search-field:focus {
+      outline: none;
+      background-color: #D8DADD;
+      font-style: normal;
+    }
+
+    .btn-submit {
+      border: none;
+      width: 30px;
+      height: 30px;
+      padding: 0 2%;
+      background-image: url(img/search-icon.png);
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-color: #F1F3F6;
+      cursor: pointer;
+    }
+
+/* SLIDER */
+
+.bg-heading {
+  position: relative;
+  background-color: #31333E;
+  height: 550px;
+}
+
+  .bg-heading .btn-arrow {
+    position: absolute;
+    width: 29px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    z-index: 5;
+    top: 220px;
+  }
+
+  .bg-heading .btn-arrow.btn-arrowL {
+    background-image: url(img/arrow.png);
+    right: 90%;
+  }
+
+  .bg-heading .btn-arrow.btn-arrowR {
+    background-image: url(img/arrowR.png);
+    left: 90%;
+  }
+
+  .bg-heading .img-laptop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 202px;
+  }
+
+.slider-wrapper {
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  border: 1px solid transparent;
+}
+
+  .slider-wrapper.slider-second {
+    display: none;
+  }
+
+  .slider-wrapper .slider-heading {
+    text-align: center;
+    margin: 60px 0;
+    height: 100%;
+  }
+
+  .slider-wrapper .heading-title, .slider-wrapper .btn-more  {
+    display: inline-block;
+  }
+
+  .slider-wrapper .heading-title {
+    margin: 0 5%;
+  }
+
+  .slider-wrapper .btn-more {
+    background-color: #00AEFF;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 220px;
+    height: 60px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .slider-wrapper .btn-more:hover {
+    background-color: #009CE5;
+  }
+
+  /* SLIDER ARROWS*/
+
+
+  .slider-wrapper .img-iphone {
+    position: absolute;
+    left: -500px;
+    right: 0;
+    margin: 0 auto;
+    top: 286px;
+  }
+
+  .element-none {
+    display: none;
+  }
+
+/* SECTIONS */
+
+.section-title {
+  margin: 0;
+  color: #5F5F5D;
+}
+
+  /* SECTION - APPS */
+
+.section-offer {
+  margin: 0 10%;
+  margin-top: 100px;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: space-around;
+}
+
+  .section-offer .app-container {
+    text-align: center;
+    width: 340px;
+    margin-left: 60px;
+  }
+
+  .section-offer .app-container:first-child {
+    margin-left: 0;
+  }
+
+  .section-offer .app-container .link-more {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00B3FF;
+    font-weight: 600;
+  }
+
+  .section-offer .app-container .link-more:hover {
+    color: #00A1DD;
+  }
+
+  .section-offer .app-container .app-image {
+    margin: 25px 0 30px 0;
+  }
+
+  .section-offer .app-container .app-text {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  /* SECTION - WORKS */
+
+.bg-works {
+  background-color: #E2E7ED;
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+
+  .bg-works .section-works {
+    margin: 0 10%;
+  }
+
+  .bg-works .section-works .works-images-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .image-container {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    box-shadow: 0 0 5px 1px #777777;
+    margin: 3px;
+  }
+
+  .image-container .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00AEFF;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility .7s, opacity .7s ease;
+  }
+
+  .image-container:hover .mask {
+    opacity: 1;
+    visibility: visible;
+  }
+
+    .mask .mask-text {
+      color: #FFFFFF;
+    }
+
+    .mask .btn-works {
+      width: 70px;
+      height: 40px;
+      position: absolute;
+      border: 0;
+      bottom: 0;
+      cursor: pointer;
+    }
+
+    .mask .btn-works.btn-show {
+      background-image: url(img/show-icon.jpg);
+      left: 0;
+    }
+
+    .mask .btn-works.btn-share {
+      background-image: url(img/share-icon.jpg);
+      right: 0;
+    }
+
+
+  /* SECTION - CLIENTS */
+
+.section-clients {
+  margin: 0 10%;
+  margin-top: 35px;
+  margin-bottom: 80px;
+}
+  .section-clients .clients-list {
+    height: 60px;
+  }
+
+/* FOOTER */
+
+.bg-foot {
+  background-color: #31333F;
+  padding-top: 45px;
+  padding-bottom: 75px;
+}
+
+  .bg-foot .foot {
+    margin: 0 10%;
+  }
+
+    .foot .foot-container::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+  .foot .foot-side {
+      float: left;
+      /*line-height: 30px;*/
+  }
+
+    .foot .footer-nav {
+      list-style-type: none;
+      padding: 0;
+      height: 20px;
+    }
+
+      .foot .footer-nav li {
+        float: left;
+        padding: 0 15px;
+        border-right: 1px solid #FFFFFF;
+        line-height: 15px;
+      }
+
+      .foot .footer-nav li:first-child {
+        padding-left: 0;
+      }
+
+      .foot .footer-nav li:last-child {
+        border: 0;
+      }
+
+        .foot .footer-nav li a {
+          text-decoration: none;
+          color: #FFFFFF;
+        }
+
+        .foot .footer-nav li a:hover {
+          color: #00AEFF;
+        }
+
+  .foot .foot-copyright {
+    color: #FFFFFF;
+  }
+
+  .foot .footer-socials {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+  }
+
+  .foot .footer-socials::after {
+    content: "";
+    display: block;
+    clear:both;
+  }
+
+    .foot .footer-socials .footer-social-item {
+      width: 36px;
+      height: 36px;
+      display: inline-block;
+      margin: 5px;
+      position: relative;
+    }
+
+    .foot .footer-socials .footer-social-item:hover {
+      bottom: 2px;
+      box-shadow: 2px 4px 15px #222222;
+    }
+
+  .foot .foot-desc {
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+@media all and (max-width: 1000px) {
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+    .searchbox {
+      order: 0;
+    }
+
+    .site-nav {
+      order: 1;
+    }
+
+    .slider-wrapper .btn-more {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+
+  .bg-heading .img-laptop {
+    top: 230px;
+    width: 70%;
+  }
+
+  .bg-heading .btn-arrow {
+    top: 240px;
+  }
+
+  .section-works .image-container {
+    margin: 8px;
+  }
+
+}
+
+@media all and (max-width: 640px) {
+
+  .header-container {
+    display: block;
+    margin: 0;
+  }
+
+    .header-container a {
+      text-decoration: none;
+    }
+
+      .logo {
+        margin: 10px;
+        display: inline-block;
+      }
+
+      .hamburger {
+        margin-top: 13px;
+        margin-right: 10px;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+      }
+
+      .btn-search-mobile {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 18px;
+      }
+
+      .searchbox {
+        display: block;
+        width: 92%;
+        padding: 0;
+        margin: 0 auto 0 auto;
+        transition: max-height 0.4s, margin-bottom 0.4s;
+        max-height: 0;
+      }
+
+      .searchbox.showing {
+        max-height: 40px;
+        margin-bottom: 10px;
+      }
+
+      .searchbox .btn-submit {
+        display: none;
+      }
+
+        .searchbox .search-field {
+          width: 100%;
+        }
+
+
+      .site-nav .nav-list {
+        /*test*/
+        /*display: none;*/
+        background-color: #31333E;
+        padding: 0 5%;
+        margin: 0;
+        transition: max-height 0.4s;
+        max-height: 0;
+      }
+
+      .site-nav .nav-list.showing {
+        display: block;
+        max-height: 20em;
+      }
+
+        .site-nav .nav-list .nav-item {
+          padding: 0;
+          text-align: center;
+          float: none;
+          width: 100%;
+          border: 0;
+          border-bottom: 1px solid #64666F;
+        }
+
+        .nav-list .nav-item:hover {
+          background-color: #42444F;
+        }
+
+          .nav-list .nav-item a {
+            color: #FFFFFF;
+            display: block;
+            padding: 20px 0;
+          }
+
+  .bg-heading {
+    height: 450px;
+  }
+
+  .slider-wrapper .btn-more {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .section-offer {
+    flex-wrap: wrap;
+    margin: 30px 0;
+  }
+
+    .section-offer .app-container {
+      margin-left: 0;
+      padding: 40px 0;
+      box-shadow: 0 3px 2px -3px #191919;
+    }
+
+    .section-offer .app-container:last-child {
+      box-shadow: none;
+    }
+
+  .section-works .image-container {
+    margin-bottom: 15px;
+  }
+}
