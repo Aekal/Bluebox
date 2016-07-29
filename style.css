@@ -565,4 +565,29 @@ body {
   .section-works .image-container {
     margin-bottom: 15px;
   }
-}
+
+  .bg-foot {
+    padding-top: 25px;
+  }
+
+    .foot .foot-side {
+      float: none;
+    }
+
+    .foot .footer-nav {
+      margin-bottom: 25px;
+      height: auto;
+    }
+
+    .foot .footer-nav li {
+      float: none;
+      border-right: none;
+      display: block;
+      padding: 5px 0;
+      text-align: center;
+    }
+
+    .foot .footer-socials {
+      float: none;
+      text-align: center;
+    }
