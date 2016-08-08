@@ -115,8 +115,8 @@ body {
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    z-index: 5;
     top: 220px;
+    outline: none;
   }
 
   .bg-heading .btn-arrow.btn-arrowL {
@@ -481,15 +481,15 @@ body {
       }
 
       .searchbox {
-        display: block;
+        display: none;
         width: 92%;
         padding: 0;
         margin: 0 auto 0 auto;
-        transition: max-height 0.4s, margin-bottom 0.4s;
         max-height: 0;
       }
 
       .searchbox.showing {
+        display: block;
         max-height: 40px;
         margin-bottom: 10px;
       }
@@ -504,18 +504,14 @@ body {
 
 
       .site-nav .nav-list {
-        /*test*/
-        /*display: none;*/
         background-color: #31333E;
         padding: 0 5%;
         margin: 0;
-        transition: max-height 0.4s;
-        max-height: 0;
+        display: none;
       }
 
       .site-nav .nav-list.showing {
         display: block;
-        max-height: 20em;
       }
 
         .site-nav .nav-list .nav-item {
@@ -591,4 +587,3 @@ body {
       float: none;
       text-align: center;
     }
-    
