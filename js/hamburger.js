@@ -6,4 +6,5 @@ $(".hamburger").click(function() {
 $(".btn-search-mobile").click(function() {
   $(".searchbox").toggleClass("showing");
   $(".nav-list").removeClass("showing");
+  document.querySelector(".search-field").focus();
 });
