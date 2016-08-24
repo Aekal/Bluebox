@@ -1,13 +1,13 @@
 var slide_nr = 1;
 var speed = 500;
 
-$(".btn-arrowR").click(function() {
+$(".slider__btn-arrow--right").click(function() {
   removeElements();
   slide_nr++;
   changeSlide();
 });
 
-$(".btn-arrowL").click(function(){
+$(".slider__btn-arrow--left").click(function(){
   removeElements();
   slide_nr--;
   changeSlide();
@@ -33,39 +33,38 @@ function createSlide(slide_nr, title, img_src) {
   setTimeout(function(){
     // Adding container
     jQuery('<div/>', {
-      class: 'slider-container element-none',
-    }).appendTo('.slider-wrapper');
+      class: 'slider__container slider__container--hidden'
+    }).appendTo('.slider__wrapper');
     // Adding container's heading
     jQuery('<div/>', {
-      class: 'slider-heading'
-    }).appendTo('.slider-container');
+      class: 'slider__heading'
+    }).appendTo('.slider__container');
     // Adding heading title
     jQuery('<h1/>', {
-      class: 'heading-title',
+      class: 'slider__title',
       text: title
-    }).appendTo('.slider-heading');
+    }).appendTo('.slider__heading');
     // Adding heading button
     jQuery('<button/>', {
       type: 'button',
-      class: 'btn-more',
+      class: 'slider__btn-more',
       text: 'Learn More'
-    }).appendTo('.slider-heading');
+    }).appendTo('.slider__heading');
     // Adding image
     jQuery('<img/>', {
       src: img_src,
-      class: 'img-laptop'
-    }).appendTo('.slider-container');
-
+      class: 'slider__img'
+    }).appendTo('.slider__container');
   }, speed);
 
   setTimeout(function(){
-    $(".slider-container").fadeIn(speed);
+    $(".slider__container").fadeIn(speed);
   }, speed);
 }
 
 function removeElements() {
-  $(".slider-container").fadeOut(speed);
+  $(".slider__container").fadeOut(speed);
   setTimeout(function(){
-    $(".slider-container").remove();
+    $(".slider__container").remove();
   },speed);
 }

@@ -1,10 +1,10 @@
 $(".hamburger").click(function() {
-  $(".nav-list").toggleClass("showing");
-  $(".searchbox").removeClass("showing");
+  $(".menu__row").toggleClass("menu__row--visible");
+  $(".form-search").removeClass("form-search--visible");
 });
 
 $(".btn-search-mobile").click(function() {
-  $(".searchbox").toggleClass("showing");
-  $(".nav-list").removeClass("showing");
-  document.querySelector(".search-field").focus();
+  $(".form-search").toggleClass("form-search--visible");
+  $(".menu__row").removeClass("menu__row--visible");
+  document.querySelector(".form-search__field").focus();
 });
