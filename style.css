@@ -332,6 +332,11 @@ body {
   top: 0;
   bottom: 0;
   margin: auto;
+  opacity: 0.6;
+}
+
+.clients__img:hover {
+  opacity: 1;
 }
 
 /* FOOTER */
