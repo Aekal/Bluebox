@@ -298,13 +298,40 @@ body {
   /* SECTION - CLIENTS */
 
 .clients {
-  margin: 0 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 35px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+}
+
+.clients__wrapper {
+  height: 55px;
+  width: 800px;
+  margin: 10px auto;
+  overflow: hidden;
 }
 
 .clients__list {
-  height: 60px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+}
+
+.clients__item {
+  float: left;
+  width: 200px;
+  height: 55px;
+  position: relative;
+}
+
+.clients__img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 /* FOOTER */
@@ -390,6 +417,7 @@ body {
 }
 
 .footer__desc {
+  font-size: 13px;
   color: #FFFFFF;
   margin-top: 20px;
 }
@@ -428,6 +456,18 @@ body {
   margin: 8px;
 }
 
+.clients {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.clients__title {
+  margin-left: 8%;
+}
+
+.clients__wrapper {
+  width: 600px;
+}
 }
 
 @media all and (max-width: 640px) {
@@ -542,6 +582,28 @@ body {
 
 .works__images {
   margin-bottom: 15px;
+}
+
+.clients {
+  margin-bottom: 20px;
+}
+
+.clients__wrapper {
+  height: 100%;
+  width: 90%;
+  overflow: visible;
+}
+
+.clients__list {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.clients__item {
+  padding: 20px 0;
+  float: none;
 }
 
 .footer {
