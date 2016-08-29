@@ -24,7 +24,7 @@ function changeSlide() {
     switch(slide_nr) {
       case 1: createSlide(slide_nr, "We are a Creative Digital Agency", "img/slider/mac-yellow.png"); break;
       case 2: createSlide(slide_nr, "We are a Happy Digital Agency", "img/slider/mac-blue.png"); break;
-      case 3: createSlide(slide_nr, "We!", "img/slider/mac-green.png"); break;
+      case 3: createSlide(slide_nr, "We provide best solutions", "img/slider/mac-green.png"); break;
     };
   }
 }
