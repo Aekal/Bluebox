@@ -249,6 +249,7 @@ body {
 }
 
 .projects__container {
+  text-align: center;
   margin: 0 7%;
   margin-top: 30px;
   display: flex;
@@ -257,17 +258,23 @@ body {
 }
 
 .projects__images {
-  width: 250px;
-  height: 200px;
   position: relative;
+  flex-basis: 20%;
+  height: 200px;
+  margin: 6px;
+}
+
+.projects__images__img {
   box-shadow: 0 0 5px 1px #777777;
-  margin: 3px;
 }
 
 .projects__images__mask {
   position: absolute;
-  top: 0;
+  margin-left: auto;
+  margin-right: auto;
   left: 0;
+  right: 0;
+  top: 0;
   background-color: #00AEFF;
   height: 200px;
   width: 250px;
