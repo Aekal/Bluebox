@@ -1,23 +1,25 @@
+var speed = 700;
+
 $(".a-design").on("click", function() {
   $("html, body").animate({
     scrollTop: $(".works--purple").offset().top
-  }, 500);
+  }, speed);
 });
 
 $(".a-icons").on("click", function() {
   $("html, body").animate({
     scrollTop: $(".works--green").offset().top
-  }, 500);
+  }, speed);
 });
 
 $(".a-illustrations").on("click", function() {
   $("html, body").animate({
     scrollTop: $(".works--red").offset().top
-  }, 500);
+  }, speed);
 });
 
 $(".a-misc").on("click", function() {
   $("html, body").animate({
     scrollTop: $(".works--yellow").offset().top
-  }, 500);
+  }, speed);
 });
