@@ -569,7 +569,6 @@ body {
 }
 
 .projects__images {
-  max-width: 250px;
   margin: 8px;
 }
 
@@ -735,8 +734,16 @@ body {
   box-shadow: none;
 }
 
+.projects__container {
+  display: block;
+}
+
 .projects__images {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 15px;
+  display: block;
+  max-width: 250px;
 }
 
 .clients {
