@@ -266,6 +266,7 @@ body {
 
 .projects__images__img {
   box-shadow: 0 0 5px 1px #777777;
+  max-width: 250px;
 }
 
 .projects__images__mask {
