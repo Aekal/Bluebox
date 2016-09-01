@@ -27,7 +27,7 @@ body {
   flex-shrink: 0;
 }
 
-.menu__row {
+.menu__list {
   display: inline-block;
   margin-top: 15px;
   padding: 0;
@@ -543,6 +543,8 @@ body {
 
 .menu {
   order: 1;
+  width: 100%;
+  text-align: center;
 }
 
 .slider__heading {
@@ -675,14 +677,14 @@ body {
   width: 100%;
 }
 
-.menu__row {
+.menu__list {
   background-color: #31333E;
   padding: 0 5%;
   margin: 0;
   display: none;
 }
 
-.menu__row--visible {
+.menu__list--visible {
   display: block;
 }
 
