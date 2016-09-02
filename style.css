@@ -535,12 +535,73 @@ body {
 .contact__title {
   font-size: 45px;
   font-weight: 400;
+  padding: 0 7%;
   margin: 0;
   color: #626262;
   height: 110px;
   background-color: #E2E7ED;
-  padding-left: 7%;
   line-height: 110px;
+}
+
+.contact__wrapper {
+  margin: 60px 7% 90px 7%;
+}
+
+.contact__section {
+  display: inline-block;
+  width: 500px;
+}
+
+.map {
+  vertical-align: top;
+  width: 400px;
+}
+
+.contact__text {
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.contact__form {
+  width: 420px;
+}
+
+.contact__label {
+  font-size: 15px;
+  line-height: 50px;
+}
+
+.contact__field {
+  display: block;
+  width: 420px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #D9D9D9;
+}
+
+.contact__field--textarea {
+  height: 190px;
+  resize: vertical;
+}
+
+.contact__submit {
+  font-size: 20px;
+  width: 220px;
+  height: 60px;
+  padding: 0;
+  margin-top: 40px;
+  color: #FFFFFF;
+  background-color: #00AEFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact__submit:hover {
+  background-color: #009CE5;
 }
 
 @media all and (max-width: 1000px) {
