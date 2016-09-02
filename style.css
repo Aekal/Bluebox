@@ -450,7 +450,7 @@ body {
 
 .works-nav {
   background-color: #E2E7ED;
-  padding: 29px 7%;
+  padding: 26px 7%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -528,6 +528,19 @@ body {
 
 .works__article__text {
   margin: 0;
+}
+
+/* CONTACT - SITE */
+
+.contact__title {
+  font-size: 45px;
+  font-weight: 400;
+  margin: 0;
+  color: #626262;
+  height: 110px;
+  background-color: #E2E7ED;
+  padding-left: 7%;
+  line-height: 110px;
 }
 
 @media all and (max-width: 1000px) {
