@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -32,9 +33,9 @@
       <button type="submit" class="form-search__submit">&nbsp</button>
     </form>
   </header>
-  <main class="contact">
-    <h1 class="contact__title">Get in touch with us</h1>
-    <div class="contact__wrapper">
+  <main>
+    <h1 class="contact-title">Get in touch with us</h1>
+    <div class="contact">
       <section class="contact__section">
         <p class="contact__text">
           Thank you for stopping by! We are happy to hear from you.
@@ -58,15 +59,17 @@
       </section>
       <section class="contact__section map">
         <h2 class="map__title">We are here</h2>
-        <div class="map__google">
+        <div class="map__container">
+          <div class="map__google"></div>
         </div>
         <address class="map__adress">
-          <strong>BlueBox Company</strong><br>
+          <i class="material-icons map__icon-place">place</i>
+          <span class="map__company">BlueBox Company</span><br>
           1234 Road<br>
           London, SW1 000<br>
           <span class="map__phone">Tel: 01000 334 556</span>
           <span class="map__phone">Fax: 01000 334 556</span>
-          Email: <a href="mailto:info@domainname.com">info@domainname.com</a>
+          <span class="map__phone">Email: <a class="map__mail" href="mailto:info@domainname.com">info@domainname.com</a></span>
         </address>
       </section>
     </div>
@@ -100,5 +103,7 @@
   </footer>
   <script src="js/jquery-3.0.0.min.js"></script>
   <script src="js/hamburger.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Ll6-tQI87W7lCcM0WZKQwjDCiGYCdKE&callback=initMap"></script>
+  <script src="js/map.js"></script>
 </body>
 </html>
