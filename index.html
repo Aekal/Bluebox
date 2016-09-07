@@ -6,15 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <header class="header">
-    <a class="logo" href="index.html">
-      <img src="img/logo.png" alt="logo">
-    </a>
-    <a class="hamburger" href="#">
-      <img src="img/menu-icon.png" alt="menu">
-    </a>
+    <a class="logo" href="index.html"></a>
+    <i class="material-icons hamburger" href="#">menu</i>
     <nav class="menu">
       <ul class="menu__list">
         <li class="menu__item"><a class="menu__link" href="#">About</a></li>
@@ -24,15 +21,14 @@
         <li class="menu__item menu__item--last"><a class="menu__link" href="contact.html">Contact us</a></li>
       </ul>
     </nav>
-    <a class="btn-search-mobile" href="#">
-      <img src="img/search-icon-black.png" alt="Search">
-    </a>
+    <i class="material-icons btn-search-mobile">search</i>
     <form class="form-search">
       <input type="search" class="form-search__field" placeholder="Search">
-      <button type="submit" class="form-search__submit">&nbsp</button>
+      <button type="submit" class="form-search__submit">
+        <i class="material-icons">search</i>
+      </button>
     </form>
   </header>
-
   <main>
     <div class="slider">
       <button type="button" name="arrow-left" class="slider__btn-arrow slider__btn-arrow--left"></button>
@@ -47,7 +43,6 @@
         </div>
       </div>
     </div>
-
     <section class="apps">
       <div class="apps__container apps__container--first">
         <h2 class="section-title">Web Design</h2>
@@ -74,7 +69,6 @@
         <a href="#" class="apps__link">Read more</a>
       </div>
     </section>
-
     <section class="projects">
       <h2 class="section-title projects__title">Our projects</h2>
       <div class="projects__container">
@@ -168,7 +162,6 @@
         </div>
       </div>
     </section>
-
     <section class="clients">
        <h2 class="section-title clients__title">Clients</h2>
        <div class="clients__wrapper">
@@ -197,7 +190,6 @@
        </div>
     </section>
   </main>
-
   <footer class="footer">
     <div class="footer__wrapper">
       <div class="footer__container">
@@ -212,7 +204,6 @@
           </ul>
           <p class="footer__copyright">&copy 2016 BlueBox. All Right Reserved.</p>
         </div>
-
         <ul class="footer__socials">
           <li class="footer__socials__item"><a href="http://facebook.com" target="_blank"><img src="img/socials/facebook.png" alt=""></a></li>
           <li class="footer__socials__item"><a href="http://linkedin.com" target="_blank"><img src="img/socials/linkedin.png" alt=""></a></li>
