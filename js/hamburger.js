@@ -6,5 +6,5 @@ $(".hamburger").click(function() {
 $(".btn-search-mobile").click(function() {
   $(".form-search").toggleClass("form-search--visible");
   $(".menu__list").removeClass("menu__list--visible");
-  document.querySelector(".form-search__field").focus();
+  $(".form-search__field").focus();
 });
