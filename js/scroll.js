@@ -1,10 +1,8 @@
-var speed = 700;
-
 $(window).scroll(function() {
-  var target = $(".works--purple").offset().top;
+  var targetY = $(".header").height();
   if ( $(window).width() < 640 ) {
-    var current = $(window).scrollTop();
-    if ( current >= target ) {
+    var currentY = $(window).scrollTop();
+    if ( currentY >= targetY ) {
       $(".scroll-arrow").addClass("scroll-arrow--active");
     } else {
       $(".scroll-arrow").removeClass("scroll-arrow--active");
@@ -15,29 +13,5 @@ $(window).scroll(function() {
 $(".scroll-arrow").on("click", function(){
   $("html, body").animate({
     scrollTop: 0
-  }, speed);
+  }, 700);
 })
-
-$(".a-design").on("click", function() {
-  $("html, body").animate({
-    scrollTop: $(".works--purple").offset().top
-  }, speed);
-});
-
-$(".a-icons").on("click", function() {
-  $("html, body").animate({
-    scrollTop: $(".works--green").offset().top
-  }, speed);
-});
-
-$(".a-illustrations").on("click", function() {
-  $("html, body").animate({
-    scrollTop: $(".works--red").offset().top
-  }, speed);
-});
-
-$(".a-misc").on("click", function() {
-  $("html, body").animate({
-    scrollTop: $(".works--yellow").offset().top
-  }, speed);
-});
