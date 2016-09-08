@@ -1,5 +1,23 @@
 var speed = 700;
 
+$(window).scroll(function() {
+  var target = $(".works--purple").offset().top;
+  if ( $(window).width() < 640 ) {
+    var current = $(window).scrollTop();
+    if ( current >= target ) {
+      $(".scroll-arrow").addClass("scroll-arrow--active");
+    } else {
+      $(".scroll-arrow").removeClass("scroll-arrow--active");
+    }
+  }
+});
+
+$(".scroll-arrow").on("click", function(){
+  $("html, body").animate({
+    scrollTop: 0
+  }, speed);
+})
+
 $(".a-design").on("click", function() {
   $("html, body").animate({
     scrollTop: $(".works--purple").offset().top

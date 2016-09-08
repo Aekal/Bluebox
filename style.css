@@ -24,6 +24,10 @@ body {
   display: none;
 }
 
+.material-icons.scroll-arrow {
+  display: none
+}
+
 .menu {
   flex-shrink: 0;
 }
@@ -1017,6 +1021,19 @@ body {
 .works-nav__item {
   display: block;
   padding: 10px;
+}
+
+.material-icons.scroll-arrow--active {
+  display: block;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 50%;
+  color: #000000;
+  background-color: #00BFFF;
+  font-size: 48px;
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .works {
