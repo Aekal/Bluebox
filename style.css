@@ -24,7 +24,7 @@ body {
   display: none;
 }
 
-.material-icons.scroll-arrow {
+.scroll-arrow {
   display: none
 }
 
@@ -971,7 +971,7 @@ body {
   /*ABOUT - SITE ** TABLET*/
 
   .team__article {
-    width: 40%;
+    width: calc(50% - 70px);
     margin: 30px 0;
   }
 
@@ -1214,16 +1214,17 @@ body {
     padding: 10px;
   }
 
-  .material-icons.scroll-arrow--active {
+  .scroll-arrow--active {
     width: 48px;
     height: 48px;
     display: inline-block;
     position: fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 10px;
+    right: 10px;
     border-radius: 50%;
     color: #000000;
     background-color: #00BFFF;
+    background-image: url("img/scroll-arrow.png");
     font-size: 48px;
     cursor: pointer;
     opacity: 0.7;
@@ -1284,10 +1285,6 @@ body {
   }
 
   /* ABOUT - SITE ** MOBILE */
-
-  .team {
-    flex-direction: column;
-  }
 
   .team__article {
     width: 100%;
