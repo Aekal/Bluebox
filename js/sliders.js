@@ -47,8 +47,8 @@
         text: title
       }).appendTo('.slider__heading');
       // Adding heading button
-      jQuery('<button/>', {
-        type: 'button',
+      jQuery('<a/>', {
+        href: '#',
         class: 'slider__btn-more',
         text: 'Learn More'
       }).appendTo('.slider__heading');
