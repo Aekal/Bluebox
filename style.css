@@ -18,12 +18,6 @@ body {
   margin: 20px 7%;
 }
 
-.logo {
-  width: 189px;
-  height: 47px;
-  background-image: url(img/logo.png);
-}
-
 .material-icons.hamburger {
   display: none;
 }
@@ -877,8 +871,8 @@ body {
 }
 
 .testimonials__photo {
-  width: 286px;
-  height: 267px;
+  max-width: 286px;
+  max-height: 267px;
   margin-right: 25px;
 }
 
@@ -1057,12 +1051,8 @@ body {
   }
 
   .logo {
-    width: 160px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: left;
+    width: 180px;
     margin: 10px;
-    display: inline-block;
   }
 
   .material-icons.hamburger {
