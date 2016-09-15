@@ -18,6 +18,15 @@ body {
   margin: 20px 7%;
 }
 
+.logo-link {
+  display: inline-block;
+}
+
+.logo {
+  width: 180px;
+  height: 50px;
+}
+
 .material-icons.hamburger {
   display: none;
 }
@@ -308,6 +317,11 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
+/*.projects__img:hover + .projects__mask {
+  opacity: 1;
+  visibility: visible;
+}*/
 
 .projects__mask-title{
   font-size: 22px;
@@ -1051,7 +1065,7 @@ body {
   }
 
   .logo {
-    width: 180px;
+    width: 170px;
     margin: 10px;
   }
 

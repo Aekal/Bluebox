@@ -1,83 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="50.539001mm"
-   height="13.263mm"
-   viewBox="0 0 179.0762 46.996289"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="logo.svg">
-  <metadata
-     id="metadata18">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1249"
-     inkscape:window-height="480"
-     id="namedview14"
-     showgrid="false"
-     showborder="false"
-     inkscape:showpageshadow="false"
-     inkscape:zoom="2.0931621"
-     inkscape:cx="87.601881"
-     inkscape:cy="23.49744"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
-  <g
-     id="g4">
-    <g
-       id="g6">
-      <path
-         d="M 0,36.97 0,11.84 19.83,23.1 40,12.96 40,36.96 19.73,47 Z M 1,10 20,0 39,10 19.74,19.93 Z"
-         id="path8"
-         inkscape:connector-curvature="0"
-         style="fill:#03aefe" />
-      <text
-         x="305.58701"
-         y="479.90701"
-         style="font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#3e414a"
-         font-size="40"
-         letter-spacing="0"
-         word-spacing="0"
-         transform="translate(-262.64,-443.16)"
-         id="text10"
-         sodipodi:linespacing="125%">
-        <tspan
-           x="305.58701"
-           y="479.90701"
-           style="font-weight:bold;font-size:35px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans Bold';letter-spacing:-2.30999994;fill:#3e414a"
-           font-weight="bold"
-           font-size="35"
-           letter-spacing="-2.31"
-           id="tspan12">BLUEBOX</tspan>
-      </text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="180px" height="50px">
+<g>
+  <path
+     d="M 0,36.97 0,11.84 19.83,23.1 40,12.96 40,36.96 19.73,47 Z M 1,10 20,0 39,10 19.74,19.93 Z"
+     style="fill:#03aefe" />
+  <text x="50" y="37"
+     style="font-family: PT Sans;
+            font-size: 35px;
+            letter-spacing: -2.31;
+            font-weight: bold;
+            fill: #3e414a;">
+    BLUEBOX
+  </text>
+</g>
 </svg>
