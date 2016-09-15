@@ -1064,9 +1064,12 @@ body {
     margin: 0;
   }
 
+  .logo-link {
+    margin: 15px;
+  }
+
   .logo {
     width: 160px;
-    margin: 15px;
   }
 
   .material-icons.hamburger {
