@@ -1,7 +1,7 @@
 // SLIDER ANIMATION
 (function(){
   var slideIndex = 1;
-  var speed = 500;
+  var speed = 300;
 
   $(".slider__btn-arrow--right").click(function() {
     removeElements();
