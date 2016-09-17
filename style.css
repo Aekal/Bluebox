@@ -21,6 +21,8 @@ body {
 }
 
 .logo-link {
+  -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
   display: inline-block;
 }
 
@@ -35,6 +37,11 @@ body {
 
 .scroll-arrow {
   display: none
+}
+
+.menu {
+  -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
 }
 
 .menu__list {
@@ -77,6 +84,8 @@ body {
 }
 
 .form-search {
+  -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -887,25 +896,40 @@ body {
   /* SERVICES - SITE ** TABLET */
 
   .header {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
+    -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
         justify-content: space-around;
   }
 
-  .form-search {
+  .logo-link {
     -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
   }
 
   .menu {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    order: 3;
     width: 100%;
     text-align: center;
   }
+
+  .form-search {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
 
   .slider__btn-arrow--left {
     left: 5%;
