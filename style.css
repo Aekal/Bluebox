@@ -259,6 +259,7 @@ body {
   margin: 30px 7% 0;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
