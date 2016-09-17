@@ -9,6 +9,7 @@ body {
 /* HEADING */
 
 .header {
+  display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
