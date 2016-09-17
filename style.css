@@ -463,7 +463,6 @@ body {
     height: 36px;
     display: inline-block;
     margin: 5px;
-    position: relative;
 }
 
 .footer__social:hover {
@@ -882,7 +881,7 @@ body {
 
 .testimonials {
     -webkit-box-flex: 2;
-    -webkit-flex: 1;
+    -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
 }
