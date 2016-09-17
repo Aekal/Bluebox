@@ -293,7 +293,7 @@ body {
 
 .projects__images {
     position: relative;
-    -webkit-flex: 1 1 250px;
+    -webkit-flex: 1 1 350px;
     -ms-flex: 1 1 20%;
     flex: 1 1 20%;
     margin: 6px;
