@@ -9,9 +9,9 @@ body {
 /* HEADING */
 
 .header {
-    display: -webkit-flex;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
@@ -89,6 +89,7 @@ body {
     flex: 0 1 auto;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     width: 170px;
     height: 30px;
@@ -168,9 +169,11 @@ body {
     margin: 60px 0;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -218,8 +221,8 @@ body {
 
 .apps {
     margin: 100px 7% 75px 7%;
-    display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-pack: distribute;
     -webkit-justify-content: space-around;
@@ -287,9 +290,9 @@ body {
 
 .projects__images {
     position: relative;
-    -webkit-flex: 1 1 20%; /* Safari 6.1+ */
-    -ms-flex: 1 1 20%; /* IE 10 */
-    flex: 1 1 20%;
+    -webkit-flex: 0 1 20%; /* Safari 6.1+ */
+    -ms-flex: 0 1 20%; /* IE 10 */
+    flex: 0 1 20%;
     margin: 6px;
     text-align: center;
 }
@@ -481,6 +484,7 @@ body {
     padding: 26px 7%;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -578,6 +582,7 @@ body {
     margin: 60px 7% 90px 7%;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -769,6 +774,7 @@ body {
 .team {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -798,6 +804,7 @@ body {
 .team__name {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -841,6 +848,7 @@ body {
 .advantages-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -877,6 +885,7 @@ body {
 .testimonials__article {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -1235,6 +1244,7 @@ body {
         overflow: hidden;
         display: -webkit-box;
         display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
