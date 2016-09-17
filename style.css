@@ -6,7 +6,7 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-/* HEADING */
+/* HEADER */
 
 .header {
     display: -webkit-box;
@@ -78,8 +78,6 @@ body {
     color: #00AEFF;
 }
 
-/* SEARCH FIELD */
-
 .material-icons.btn-search-mobile {
     display: none;
 }
@@ -125,7 +123,7 @@ body {
     color: #C1C1C1;
 }
 
-/* SLIDER */
+/* SERVICES - SITE */
 
 .slider {
     position: relative;
@@ -213,8 +211,6 @@ body {
     top: 202px;
 }
 
-/* SECTIONS */
-
 .section-title {
     font-size: 30px;
     font-weight: 400;
@@ -293,8 +289,8 @@ body {
 
 .projects__images {
     position: relative;
-    -ms-flex: 1 1 20%;
-    flex: 1 1 20%;
+    -ms-flex: 0 1 20%;
+    flex: 0 1 20%;
     margin: 6px;
     min-width: 250px;
     text-align: center;
@@ -1045,6 +1041,7 @@ body {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
+        -webkit-flex-direction: column;
         flex-direction: column;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -1087,7 +1084,7 @@ body {
 
 @media all and (max-width: 640px) {
 
-  /* SERVICES - SITE ** MOBILE */
+    /* SERVICES - SITE ** MOBILE */
 
     .header {
         display: block;
@@ -1302,7 +1299,7 @@ body {
         text-align: center;
     }
 
-  /* WORKS - SITE ** MOBILE */
+    /* WORKS - SITE ** MOBILE */
 
     .works-nav {
         text-align: left;
@@ -1359,7 +1356,7 @@ body {
         width: 100%;
     }
 
-  /* CONTACT - SITE ** MOBILE */
+    /* CONTACT - SITE ** MOBILE */
 
     .contact-title {
         text-align: center;
@@ -1394,7 +1391,7 @@ body {
         width: 100%;
     }
 
-  /* ABOUT - SITE ** MOBILE */
+    /* ABOUT - SITE ** MOBILE */
 
     .team__article {
         width: 100%;
