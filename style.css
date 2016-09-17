@@ -105,6 +105,8 @@ body {
     padding: 5px;
     background-color: #F1F3F6;
     font-style: italic;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 .form-search__field:focus {
@@ -617,8 +619,6 @@ body {
     box-sizing: border-box;
     padding: 5px;
     border: 1px solid #D9D9D9;
-    -webkit-appearance: none;
-    border-radius: 0;
 }
 
 .contact__field--textarea {
