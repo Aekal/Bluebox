@@ -293,8 +293,8 @@ body {
 
 .projects__images {
     position: relative;
-    -webkit-flex: 0 1 20%; /* Safari 6.1+ */
-    -ms-flex: 0 1 20%; /* IE 10 */
+    -webkit-flex: 1 1 20%; /* Safari 6.1+ */
+    -ms-flex: 1 1 20%; /* IE 10 */
     flex: 1 1 20%;
     margin: 6px;
     min-width: 250px;
