@@ -290,9 +290,7 @@ body {
     -webkit-flex: 0 1 20%; /* Safari 6.1+ */
     -ms-flex: 0 1 20%; /* IE 10 */
     flex: 0 1 20%;
-    height: 200px;
     margin: 6px;
-    text-align: center;
 }
 
 .projects__img {
