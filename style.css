@@ -894,9 +894,17 @@ body {
 }
 
 .testimonials__photo {
-    max-width: 286px;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
     max-height: 267px;
     margin-right: 25px;
+}
+
+.testimonials__text-container {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 
 @media all and (max-width: 1366px) {
