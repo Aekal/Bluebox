@@ -207,12 +207,13 @@ body {
 .apps {
   margin: 100px 7% 75px 7%;
   display: -webkit-flex;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
     -webkit-justify-content: space-around;
       justify-content: space-around;
+
+      -webkit-box-pack: justify;
 }
 
 .apps__container {
