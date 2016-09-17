@@ -216,6 +216,7 @@ body {
 }
 
 .apps__container {
+  -webkit-flex: 0 1 auto;
   flex: 0 1 auto;
   text-align: center;
   width: 340px;
