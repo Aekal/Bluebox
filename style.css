@@ -1080,6 +1080,7 @@ body {
     .advantages-wrapper {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
     }
@@ -1421,6 +1422,7 @@ body {
     .testimonials__article {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-align: center;
