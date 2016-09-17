@@ -216,6 +216,7 @@ body {
 }
 
 .apps__container {
+  flex: 0 1 auto;
   text-align: center;
   width: 340px;
   margin-left: 60px;
