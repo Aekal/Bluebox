@@ -297,6 +297,7 @@ body {
     -ms-flex: 0 1 20%; /* IE 10 */
     flex: 0 1 20%;
     margin: 6px;
+    min-width: 250px;
     text-align: center;
 }
 
@@ -817,6 +818,7 @@ body {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
     position: absolute;
     color: #FFFFFF;
@@ -1048,6 +1050,7 @@ body {
         -webkit-box-align: center;
         -ms-flex-align: center;
         -ms-grid-row-align: center;
+        -webkit-align-items: center;
         align-items: center;
     }
 
@@ -1420,6 +1423,7 @@ body {
         -webkit-box-align: center;
         -ms-flex-align: center;
         -ms-grid-row-align: center;
+        -webkit-align-items: center;
         align-items: center;
     }
 
