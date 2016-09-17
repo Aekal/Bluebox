@@ -14,6 +14,7 @@ body {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
           justify-content: space-between;
   margin: 20px 7%;
 }
@@ -211,7 +212,6 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
   -webkit-justify-content: space-around;
-  /*-webkit-box-pack: justify;*/
   justify-content: space-around;
 
 }
