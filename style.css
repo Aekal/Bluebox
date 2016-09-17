@@ -210,10 +210,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-    /*-webkit-justify-content: space-around;*/
-      justify-content: space-around;
+  -webkit-justify-content: space-around;
+  /*-webkit-box-pack: justify;*/
+  justify-content: space-around;
 
-      /*-webkit-box-pack: justify;*/
 }
 
 .apps__container {
