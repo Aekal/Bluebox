@@ -20,7 +20,7 @@ gulp.task('watch', ['browserSync'], function() {
 gulp.task('autoprefixer', function() {
   gulp.src('style.css')
     .pipe(autoprefixer())
-    .pipe(gulp.dest('new_css'))
+    .pipe(gulp.dest('prefixed-css'))
 });
 
 gulp.task('beautify', function(){
