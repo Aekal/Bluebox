@@ -136,9 +136,14 @@ body {
     border: 0;
     cursor: pointer;
     top: 220px;
-    outline: none;
     z-index: 5;
     color: #696D7D;
+}
+
+.slider__btn-arrow:focus {
+    outline: none;
+    background-color: #2C2D37;
+    border-radius: 20%;
 }
 
 .slider__btn-arrow--left {
@@ -220,7 +225,6 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -ms-flex-pack: distribute;
     -webkit-justify-content: space-around;
     justify-content: space-around;
 }
@@ -460,7 +464,7 @@ body {
 }
 
 .footer__social-link {
-  display: block;
+    display: block;
 }
 
 .footer__social:hover {
@@ -581,7 +585,6 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -ms-flex-pack: distribute;
     -webkit-justify-content: space-around;
     justify-content: space-around;
 }
@@ -748,7 +751,7 @@ body {
 .testimonials__text,
 .advantages__list {
     background-color: rgba(230, 242, 255, .5);
-    box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 26px 0 rgba(0, 0, 0, .4);
     padding: 10px;
 }
 
@@ -773,7 +776,6 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -ms-flex-pack: distribute;
     -webkit-justify-content: space-around;
     justify-content: space-around;
     -webkit-flex-wrap: wrap;
@@ -817,7 +819,7 @@ body {
     align-items: center;
     position: absolute;
     color: #FFFFFF;
-    text-shadow: 0px 0px 3px #000000;
+    text-shadow: 0 0 3px #000000;
     width: calc(100% - 12px);
     max-width: 300px;
     height: 30%;
@@ -921,7 +923,6 @@ body {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -ms-flex-pack: distribute;
         -webkit-justify-content: space-around;
         justify-content: space-around;
     }
@@ -1083,18 +1084,17 @@ body {
     }
 
     .advantages {
-      flex: auto;
+        flex: auto;
         margin: 0;
     }
 
     .testimonials {
-      flex: auto;
+        flex: auto;
     }
 
     .testimonials__text-container {
-      flex: auto;
+        flex: auto;
     }
-
 }
 
 @media all and (max-width: 640px) {
@@ -1230,9 +1230,9 @@ body {
     }
 
     .projects__container {
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 
     .projects__images {
@@ -1271,7 +1271,6 @@ body {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -ms-flex-pack: distribute;
         -webkit-justify-content: space-around;
         justify-content: space-around;
     }
@@ -1447,6 +1446,6 @@ body {
     }
 
     .testimonials__text-container {
-      max-width: 100%;
+        max-width: 100%;
     }
 }
