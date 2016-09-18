@@ -4,5 +4,5 @@ Full responsive website project based on Bluebox free PSD <a href="http://www.gr
 - HTML5, CSS3, JS
 - jQuery
 - Git
-- Gulp (autoprefixer + browserSync)
+- Gulp (autoprefixer + browserSync + cssbeautify)
 - BEM methodology

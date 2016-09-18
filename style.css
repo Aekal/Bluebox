@@ -96,9 +96,7 @@ body {
 }
 
 .form-search__field {
-    min-width: 62px;
     width: 80%;
-    height: 30px;
     border: 0;
     padding: 5px;
     background-color: #F1F3F6;
@@ -116,7 +114,6 @@ body {
 .form-search__submit {
     border: none;
     width: 30px;
-    height: 30px;
     padding: 0 2%;
     background-color: #F1F3F6;
     cursor: pointer;
@@ -715,6 +712,7 @@ body {
 /* ABOUT - SITE */
 
 .about {
+    display: block;
     padding: 30px 7% 60px 7%;
     background-color: #F9F9F9;
 }
@@ -790,6 +788,8 @@ body {
 
 .team__photo-container {
     position: relative;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .team__photo {
@@ -1086,8 +1086,18 @@ body {
     }
 
     .advantages {
+      flex: auto;
         margin: 0;
     }
+
+    .testimonials {
+      flex: auto;
+    }
+
+    .testimonials__text-container {
+      flex: auto;
+    }
+
 }
 
 @media all and (max-width: 640px) {
@@ -1144,6 +1154,7 @@ body {
     }
 
     .form-search__field {
+        height: 30px;
         width: 100%;
     }
 
@@ -1438,5 +1449,9 @@ body {
         width: 90%;
         max-width: 286px;
         height: auto;
+    }
+
+    .testimonials__text-container {
+      max-width: 100%;
     }
 }
