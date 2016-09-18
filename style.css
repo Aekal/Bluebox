@@ -286,11 +286,7 @@ body {
 
 .projects__images {
     position: relative;
-    -ms-flex: 0 1 20%;
-    flex: 0 1 20%;
-    margin: 6px;
-    min-width: 250px;
-    text-align: center;
+    margin: 16px;
 }
 
 .projects__img {
@@ -460,6 +456,11 @@ body {
     height: 36px;
     display: inline-block;
     margin: 5px;
+    position: relative;
+}
+
+.footer__social-link {
+  display: block;
 }
 
 .footer__social:hover {
@@ -838,10 +839,6 @@ body {
     opacity: 1;
 }
 
-.team__article:hover {
-    background-color: rgba(255,255,255,0.5);
-}
-
 .team__subtitle {
     font-size: 16px;
     margin: 10px 0;
@@ -987,7 +984,7 @@ body {
     }
 
     .projects__images {
-        margin: 8px;
+        margin: 12px;
     }
 
     .clients {
@@ -1233,20 +1230,18 @@ body {
     }
 
     .projects__container {
-        display: block;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
     }
 
     .projects__images {
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 15px;
-        display: block;
-        height: 100%;
-        max-height: 200px;
         max-width: 250px;
     }
 
-    .projects__images__img {
+    .projects__img {
         width: 100%;
     }
 
