@@ -43,8 +43,8 @@ gulp.task('uglify', function() {
 
 gulp.task('minify-css', function() {
     return gulp.src('css/style.css')
-        // .pipe(sourcemaps.init())
+        .pipe(sourcemaps.init())
         .pipe(cleanCSS())
-        // .pipe(sourcemaps.write())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('min-css'))
 });
