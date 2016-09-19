@@ -132,7 +132,7 @@ body {
     position: absolute;
     width: 50px;
     height: 60px;
-    background: url(img/arrow.png) no-repeat transparent center;
+    background: url("../img/arrow.png") no-repeat transparent center;
     border: 0;
     cursor: pointer;
     top: 220px;
@@ -337,12 +337,12 @@ body {
 }
 
 .projects__mask-btn--show {
-    background-image: url(img/show-icon.jpg);
+    background-image: url("../img/show-icon.jpg");
     left: 0;
 }
 
 .projects__mask-btn--share {
-    background-image: url(img/share-icon.jpg);
+    background-image: url("../img/share-icon.jpg");
     right: 0;
 }
 
@@ -1344,7 +1344,7 @@ body {
         border-radius: 50%;
         color: #000000;
         background-color: #00BFFF;
-        background-image: url("img/scroll-arrow.png");
+        background-image: url("../img/scroll-arrow.png");
         font-size: 48px;
         cursor: pointer;
         opacity: 0.7;
