@@ -3,7 +3,6 @@ var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var cssbeautify = require('gulp-cssbeautify');
 var uglify = require('gulp-uglifyjs');
-var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 var sourcemaps = require('gulp-sourcemaps')
 
@@ -38,13 +37,13 @@ gulp.task('uglify', function() {
     .pipe(uglify('main.min.js', {
       outSourceMap: true
     }))
-    .pipe(gulp.dest('min-js'))
+    .pipe(gulp.dest('dist/js'))
 });
 
 gulp.task('minify-css', function() {
     return gulp.src('css/style.css')
         .pipe(sourcemaps.init())
         .pipe(cleanCSS())
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest('min-css'))
+        .pipe(sourcemaps.write('css-map'))
+        .pipe(gulp.dest('dist/css'))
 });
