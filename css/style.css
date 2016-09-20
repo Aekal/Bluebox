@@ -773,7 +773,7 @@ body {
     padding: 15px;
     margin: 0;
     padding-left: 40px;
-    list-style-image: url("img/list-arrow.png");
+    list-style-image: url("../img/list-arrow.png");
 }
 
 .advantages__subtitle {
