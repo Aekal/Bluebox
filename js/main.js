@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
 
   // Search toggle - mobile
-  $(".btn-search-mobile").click(function() {
+  $(".btn-search").click(function() {
     $(".form-search").toggleClass("form-search--visible");
     $(".menu__list").removeClass("menu__list--visible");
     $(".form-search__field").focus();
@@ -68,13 +68,13 @@ $(document).ready(function() {
     var slideIndex = 1;
     var speed = 300;
 
-    $(".slider__btn-arrow--right").click(function() {
+    $(".slider__btn-arrow--next").click(function() {
       removeElements();
       slideIndex++;
       changeSlide();
     });
 
-    $(".slider__btn-arrow--left").click(function() {
+    $(".slider__btn-arrow--prev").click(function() {
       removeElements();
       slideIndex--;
       changeSlide();
