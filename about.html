@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bluebox</title>
+  <title>Bluebox - About</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.min.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
     <a class="logo-link" href="index.html">
-      <img class="logo" src="img/logo.svg" alt="logo"/>
+      <img class="logo" src="img/navigation/logo.svg" alt="logo"/>
     </a>
-    <i class="material-icons hamburger">menu</i>
     <nav class="menu">
+      <button type="button" class="hamburger"><span class="btn-text-hide">Menu mobile</span></button>
       <ul class="menu__list">
         <li class="menu__item"><a class="menu__link menu__link--active" href="about.html">About</a></li>
         <li class="menu__item"><a class="menu__link" href="index.html">Services</a></li>
         <li class="menu__item"><a class="menu__link" href="works.html">Works</a></li>
-        <li class="menu__item menu__item--last"><a class="menu__link" href="contact.html">Contact us</a></li>
+        <li class="menu__item"><a class="menu__link" href="contact.html">Contact us</a></li>
       </ul>
     </nav>
-    <i class="material-icons btn-search-mobile">search</i>
+    <button class="btn-search"><span class="btn-text-hide">Search mobile</span></button>
     <form class="form-search">
       <input type="search" class="form-search__field" placeholder="Search">
       <button type="submit" class="form-search__submit">
-        <i class="material-icons">search</i>
+        <span class="btn-text-hide">Search submit</span>
       </button>
     </form>
   </header>
   <main class="about">
-    <a href="#" class="scroll-arrow"></a>
+    <a class="scroll-arrow"></a>
     <section class="company">
-      <h2 class="about__title about__title--first">about</h2>
+      <h1 class="about__title about__title--about">about</h1>
       <article class="company__article">
-        <h3 class="about__subtitle">lorem ipsum is simply dummy text</h3>
+        <h2 class="about__subtitle">lorem ipsum is simply dummy text</h2>
         <p class="about__text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -49,13 +48,13 @@
       </article>
     </section>
     <section class="team">
-      <h2 class="about__title">our team</h2>
+      <h1 class="about__title">our team</h1>
       <article class="team__article">
         <div class="team__photo-container">
           <img src="img/photos/photo1.jpg" alt="Lara Croft" class="team__photo">
           <span class="team__name">Lara Croft</span>
         </div>
-        <h3 class="about__subtitle team__subtitle">lorem ipsum is simply dummy text</h3>
+        <h2 class="about__subtitle team__subtitle">lorem ipsum is simply dummy text</h2>
         <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
       </article>
       <article class="team__article">
@@ -63,7 +62,7 @@
           <img src="img/photos/photo2.jpg" alt="Beata Kozidrak" class="team__photo">
           <span class="team__name">Beata Kozidrak</span>
         </div>
-        <h3 class="about__subtitle team__subtitle">lorem ipsum is simply dummy text</h3>
+        <h2 class="about__subtitle team__subtitle">lorem ipsum is simply dummy text</h2>
         <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
       </article>
       <article class="team__article">
@@ -71,42 +70,42 @@
           <img src="img/photos/photo3.jpg" alt="Geralt z Rivii" class="team__photo">
           <span class="team__name">Geralt z Rivii</span>
         </div>
-        <h3 class="about__subtitle team__subtitle">lorem ipsum is simply dummy text</h3>
+        <h2 class="about__subtitle team__subtitle">lorem ipsum is simply dummy text</h2>
         <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
       </article>
-      <article class="team__article team__article--last">
+      <article class="team__article">
         <div class="team__photo-container">
           <img src="img/photos/photo4.jpg" alt="Omana Ana" class="team__photo">
           <span class="team__name">Omana Ana</span>
         </div>
-        <h3 class="about__subtitle team__subtitle">lorem ipsum is simply dummy text</h3>
+        <h2 class="about__subtitle team__subtitle">lorem ipsum is simply dummy text</h2>
         <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
       </article>
     </section>
     <div class="advantages-wrapper">
       <section class="advantages">
-        <h2 class="about__title">advantages</h2>
+        <h1 class="about__title">advantages</h1>
         <ul class="advantages__list">
           <li class="advantages__item">
-            <h3 class="about__subtitle advantages__subtitle">always free from repetition</h3>
+            <h2 class="about__subtitle advantages__subtitle">always free from repetition</h2>
             <p class="about__text advantages__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p>
           </li>
           <li class="advantages__item">
-            <h3 class="about__subtitle advantages__subtitle">always free from repetition</h3>
+            <h2 class="about__subtitle advantages__subtitle">always free from repetition</h2>
             <p class="about__text advantages__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p>
           </li>
           <li class="advantages__item">
-            <h3 class="about__subtitle advantages__subtitle">always free from repetition</h3>
+            <h2 class="about__subtitle advantages__subtitle">always free from repetition</h2>
             <p class="about__text advantages__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p>
           </li>
         </ul>
       </section>
       <section class="testimonials">
-        <h2 class="about__title">testimonials</h2>
+        <h1 class="about__title">testimonials</h1>
         <article class="testimonials__article">
           <img src="img/photos/photo5.jpg" alt="Client photo" class="testimonials__photo">
           <div class="testimonials__text-container">
-            <h3 class="about__subtitle">lorem ipsum is simply dummy text</h3>
+            <h2 class="about__subtitle">lorem ipsum is simply dummy text</h2>
             <p class="about__text testimonials__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -120,10 +119,10 @@
       <div class="footer__container">
         <div class="footer__side">
           <ul class="footer__list">
-            <li class="footer__item footer__item--first"><a class="footer__link" href="about.html">About</a></li>
+            <li class="footer__item"><a class="footer__link" href="about.html">About</a></li>
             <li class="footer__item"><a class="footer__link" href="index.html">Services</a></li>
             <li class="footer__item"><a class="footer__link" href="works.html">Works</a></li>
-            <li class="footer__item footer__item--last"><a class="footer__link" href="contact.html">Contact us</a></li>
+            <li class="footer__item"><a class="footer__link" href="contact.html">Contact us</a></li>
           </ul>
           <p class="footer__copyright">&copy; 2016 BlueBox. All Right Reserved.</p>
         </div>

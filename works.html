@@ -6,52 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.min.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
     <a class="logo-link" href="index.html">
-      <img class="logo" src="img/logo.svg" alt="logo"/>
+      <img class="logo" src="img/navigation/logo.svg" alt="logo"/>
     </a>
-    <i class="material-icons hamburger">menu</i>
     <nav class="menu">
+      <button type="button" class="hamburger"><span class="btn-text-hide">Menu mobile</span></button>
       <ul class="menu__list">
         <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
         <li class="menu__item"><a class="menu__link" href="index.html">Services</a></li>
         <li class="menu__item"><a class="menu__link menu__link--active" href="works.html">Works</a></li>
-        <li class="menu__item menu__item--last"><a class="menu__link" href="contact.html">Contact us</a></li>
+        <li class="menu__item"><a class="menu__link" href="contact.html">Contact us</a></li>
       </ul>
     </nav>
-    <i class="material-icons btn-search-mobile">search</i>
+    <button class="btn-search"><span class="btn-text-hide">Search mobile</span></button>
     <form class="form-search">
       <input type="search" class="form-search__field" placeholder="Search">
       <button type="submit" class="form-search__submit">
-        <i class="material-icons">search</i>
+        <span class="btn-text-hide">Search submit</span>
       </button>
     </form>
   </header>
   <main>
-    <a href="#" class="scroll-arrow"></a>
-    <nav class="works-nav">
-      <h1 class="works-nav__title">See Our Works</h1>
+    <a class="scroll-arrow"></a>
+    <div class="works-nav">
+    <h1 class="works-nav__title">See Our Works</h1>
       <ul class="works-nav__list">
         <li class="works-nav__item"><a class="works-nav__link a-design" href="#">Web Design</a></li>
         <li class="works-nav__item"><a class="works-nav__link a-icons" href="#">Icons</a></li>
         <li class="works-nav__item"><a class="works-nav__link a-illustrations" href="#">Illustrations</a></li>
         <li class="works-nav__item"><a class="works-nav__link a-misc" href="#">Misc</a></li>
       </ul>
-    </nav>
+    </div>
     <section class="works works--purple">
       <h2 class="works__title">Web Design</h2>
-      <article class="works__article works__article--first">
-        <img src="img/works/work1.png" class="works__img" alt="Project 1" />
+      <article class="works__article">
+        <img src="img/works/work1.png" class="works__img" alt="Work 1" />
         <h3 class="works__article-title">Lorem ipsum dolor sit amet</h3>
         <p class="works__article-text">
           Consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper.
         </p>
       </article>
-      <article class="works__article works__article--last">
-        <img src="img/works/work2.png" class="works__img" alt="Project 2" />
+      <article class="works__article">
+        <img src="img/works/work2.png" class="works__img" alt="Work 2" />
         <h3 class="works__article-title">Lorem ipsum dolor sit amet</h3>
         <p class="works__article-text">
           Consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper.
@@ -60,15 +59,15 @@
     </section>
     <section class="works works--green">
       <h2 class="works__title">Icons</h2>
-      <article class="works__article works__article--first">
-        <img src="img/works/work3.png" class="works__img" alt="Project 3" />
+      <article class="works__article">
+        <img src="img/works/work3.png" class="works__img" alt="Work 3" />
         <h3 class="works__article-title">Lorem ipsum dolor sit amet</h3>
         <p class="works__article-text">
           Consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper.
         </p>
       </article>
-      <article class="works__article works__article--last">
-        <img src="img/works/work4.png" class="works__img" alt="Project 4" />
+      <article class="works__article">
+        <img src="img/works/work4.png" class="works__img" alt="Work 4" />
         <h3 class="works__article-title">Lorem ipsum dolor sit amet</h3>
         <p class="works__article-text">
           Consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper.
@@ -77,15 +76,15 @@
     </section>
     <section class="works works--red">
       <h2 class="works__title">Illustrations</h2>
-      <article class="works__article works__article--first">
-        <img src="img/works/work5.png" class="works__img" alt="Project 5" />
+      <article class="works__article">
+        <img src="img/works/work5.png" class="works__img" alt="Work 5" />
         <h3 class="works__article-title">Lorem ipsum dolor sit amet</h3>
         <p class="works__article-text">
           Consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper.
         </p>
       </article>
-      <article class="works__article works__article--last">
-        <img src="img/works/work6.png" class="works__img" alt="Project 6" />
+      <article class="works__article">
+        <img src="img/works/work6.png" class="works__img" alt="Work 6" />
         <h3 class="works__article-title">Lorem ipsum dolor sit amet</h3>
         <p class="works__article-text">
           Consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper.
@@ -94,15 +93,15 @@
     </section>
     <section class="works works--yellow">
       <h2 class="works__title">Miscellaneous</h2>
-      <article class="works__article works__article--first">
-        <img src="img/works/work7.png" class="works__img" alt="Project 7" />
+      <article class="works__article">
+        <img src="img/works/work7.png" class="works__img" alt="Work 7" />
         <h3 class="works__article-title">Lorem ipsum dolor sit amet</h3>
         <p class="works__article-text">
           Consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper.
         </p>
       </article>
-      <article class="works__article works__article--last">
-        <img src="img/works/work8.png" class="works__img" alt="Project 8" />
+      <article class="works__article">
+        <img src="img/works/work8.png" class="works__img" alt="Work 8" />
         <h3 class="works__article-title">Lorem ipsum dolor sit amet</h3>
         <p class="works__article-text">
           Consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper.
@@ -115,10 +114,10 @@
       <div class="footer__container">
         <div class="footer__side">
           <ul class="footer__list">
-            <li class="footer__item footer__item--first"><a class="footer__link" href="about.html">About</a></li>
+            <li class="footer__item"><a class="footer__link" href="about.html">About</a></li>
             <li class="footer__item"><a class="footer__link" href="index.html">Services</a></li>
             <li class="footer__item"><a class="footer__link" href="works.html">Works</a></li>
-            <li class="footer__item footer__item--last"><a class="footer__link" href="contact.html">Contact us</a></li>
+            <li class="footer__item"><a class="footer__link" href="contact.html">Contact us</a></li>
           </ul>
           <p class="footer__copyright">&copy; 2016 BlueBox. All Right Reserved.</p>
         </div>

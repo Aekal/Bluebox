@@ -6,32 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.min.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
     <a class="logo-link" href="index.html">
-      <img class="logo" src="img/logo.svg" alt="logo"/>
+      <img class="logo" src="img/navigation/logo.svg" alt="logo"/>
     </a>
-    <i class="material-icons hamburger">menu</i>
     <nav class="menu">
+      <button type="button" class="hamburger"><span class="btn-text-hide">Menu mobile</span></button>
       <ul class="menu__list">
         <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
         <li class="menu__item"><a class="menu__link" href="index.html">Services</a></li>
         <li class="menu__item"><a class="menu__link" href="works.html">Works</a></li>
-        <li class="menu__item menu__item--last"><a class="menu__link menu__link--active" href="contact.html">Contact us</a></li>
+        <li class="menu__item"><a class="menu__link menu__link--active" href="contact.html">Contact us</a></li>
       </ul>
     </nav>
-    <i class="material-icons btn-search-mobile">search</i>
+    <button class="btn-search"><span class="btn-text-hide">Search mobile</span></button>
     <form class="form-search">
       <input type="search" class="form-search__field" placeholder="Search">
       <button type="submit" class="form-search__submit">
-        <i class="material-icons">search</i>
+        <span class="btn-text-hide">Search submit</span>
       </button>
     </form>
   </header>
   <main>
-    <a href="#" class="scroll-arrow"></a>
+    <a class="scroll-arrow"></a>
     <h1 class="contact-title">Get in touch with us</h1>
     <div class="contact">
       <div class="contact__section">
@@ -77,10 +76,10 @@
       <div class="footer__container">
         <div class="footer__side">
           <ul class="footer__list">
-            <li class="footer__item footer__item--first"><a class="footer__link" href="about.html">About</a></li>
+            <li class="footer__item"><a class="footer__link" href="about.html">About</a></li>
             <li class="footer__item"><a class="footer__link" href="index.html">Services</a></li>
             <li class="footer__item"><a class="footer__link" href="works.html">Works</a></li>
-            <li class="footer__item footer__item--last"><a class="footer__link" href="contact.html">Contact us</a></li>
+            <li class="footer__item"><a class="footer__link" href="contact.html">Contact us</a></li>
           </ul>
           <p class="footer__copyright">&copy; 2016 BlueBox. All Right Reserved.</p>
         </div>

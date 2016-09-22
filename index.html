@@ -6,35 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.min.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
     <a class="logo-link" href="index.html">
-      <img class="logo" src="img/logo.svg" alt="logo"/>
+      <img class="logo" src="img/navigation/logo.svg" alt="logo"/>
     </a>
-    <i class="material-icons hamburger">menu</i>
     <nav class="menu">
+      <button type="button" class="hamburger"><span class="btn-text-hide">Menu mobile</span></button>
       <ul class="menu__list">
         <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
         <li class="menu__item"><a class="menu__link menu__link--active" href="index.html">Services</a></li>
         <li class="menu__item"><a class="menu__link" href="works.html">Works</a></li>
-        <li class="menu__item menu__item--last"><a class="menu__link" href="contact.html">Contact us</a></li>
+        <li class="menu__item"><a class="menu__link" href="contact.html">Contact us</a></li>
       </ul>
     </nav>
-    <i class="material-icons btn-search-mobile">search</i>
+    <button class="btn-search"><span class="btn-text-hide">Search mobile</span></button>
     <form class="form-search">
       <input type="search" class="form-search__field" placeholder="Search">
       <button type="submit" class="form-search__submit">
-        <i class="material-icons">search</i>
+        <span class="btn-text-hide">Search submit</span>
       </button>
     </form>
   </header>
   <main>
-    <a href="#" class="scroll-arrow"></a>
+    <a class="scroll-arrow"></a>
     <div class="slider">
-      <button type="button" name="arrow-left" class="slider__btn-arrow slider__btn-arrow--left"></button>
-      <button type="button" name="arrow-right" class="slider__btn-arrow slider__btn-arrow--right"></button>
+      <button type="button" class="slider__btn-arrow slider__btn-arrow--prev">
+        <span class="btn-text-hide">Prev slider arrow</span>
+      </button>
+      <button type="button" class="slider__btn-arrow slider__btn-arrow--next">
+        <span class="btn-text-hide">Next slider arrow</span>
+      </button>
       <div class="slider__wrapper">
         <div class="slider__container">
           <div class="slider__heading">
@@ -45,8 +48,8 @@
         </div>
       </div>
     </div>
-    <section class="apps">
-      <div class="apps__container apps__container--first">
+    <div class="apps">
+      <div class="apps__container">
         <h2 class="section-title">Web Design</h2>
         <img src="img/apps/paintbrush.png" class="apps__img" alt="app-icon">
         <p class="apps__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -62,7 +65,7 @@
           enim, non dapibus mauris nulla sed ipsum.</p>
         <a href="#" class="apps__link">Read more</a>
       </div>
-      <div class="apps__container apps__container--last">
+      <div class="apps__container">
         <h2 class="section-title">Mobile Apps</h2>
         <img src="img/apps/mobile.png" class="apps__img" alt="app-icon3">
         <p class="apps__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -70,96 +73,96 @@
           enim, non dapibus mauris nulla sed ipsum.</p>
         <a href="#" class="apps__link">Read more</a>
       </div>
-    </section>
+    </div>
     <section class="projects">
       <h2 class="section-title projects__title">Our projects</h2>
       <div class="projects__container">
         <div class="projects__images">
-          <img src="img/projects/work1.jpg" class="projects__img" alt="project 1">
+          <img src="img/projects/project1.jpg" class="projects__img" alt="project 1">
           <div class="projects__mask">
             <h3 class="projects__mask-title">This is image hover</h3>
             <p class="projects__mask-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"></button>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"><span class="btn-text-hide">Show project</span></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"><span class="btn-text-hide">Share project</span></button>
           </div>
         </div>
         <div class="projects__images">
-          <img src="img/projects/work2.jpg" class="projects__img" alt="project 2">
+          <img src="img/projects/project2.jpg" class="projects__img" alt="project 2">
           <div class="projects__mask">
             <h3 class="projects__mask-title">This is image hover</h3>
             <p class="projects__mask-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"></button>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"><span class="btn-text-hide">Show project</span></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"><span class="btn-text-hide">Share project</span></button>
           </div>
         </div>
         <div class="projects__images">
-          <img src="img/projects/work3.jpg" class="projects__img" alt="project 3">
+          <img src="img/projects/project3.jpg" class="projects__img" alt="project 3">
           <div class="projects__mask">
             <h3 class="projects__mask-title">This is image hover</h3>
             <p class="projects__mask-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"></button>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"><span class="btn-text-hide">Show project</span></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"><span class="btn-text-hide">Share project</span></button>
           </div>
         </div>
         <div class="projects__images">
-          <img src="img/projects/work4.jpg" class="projects__img" alt="project 4">
+          <img src="img/projects/project4.jpg" class="projects__img" alt="project 4">
           <div class="projects__mask">
             <h3 class="projects__mask-title">This is image hover</h3>
             <p class="projects__mask-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"></button>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"><span class="btn-text-hide">Show project</span></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"><span class="btn-text-hide">Share project</span></button>
           </div>
         </div>
         <div class="projects__images">
-          <img src="img/projects/work5.jpg" class="projects__img" alt="project 5">
+          <img src="img/projects/project5.jpg" class="projects__img" alt="project 5">
           <div class="projects__mask">
             <h3 class="projects__mask-title">This is image hover</h3>
             <p class="projects__mask-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"></button>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"><span class="btn-text-hide">Show project</span></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"><span class="btn-text-hide">Share project</span></button>
           </div>
         </div>
         <div class="projects__images">
-          <img src="img/projects/work6.jpg" class="projects__img" alt="project 6">
+          <img src="img/projects/project6.jpg" class="projects__img" alt="project 6">
           <div class="projects__mask">
             <h3 class="projects__mask-title">This is image hover</h3>
             <p class="projects__mask-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"></button>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"><span class="btn-text-hide">Show project</span></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"><span class="btn-text-hide">Share project</span></button>
           </div>
         </div>
         <div class="projects__images">
-          <img src="img/projects/work7.jpg" class="projects__img" alt="project 7">
+          <img src="img/projects/project7.jpg" class="projects__img" alt="project 7">
           <div class="projects__mask">
             <h3 class="projects__mask-title">This is image hover</h3>
             <p class="projects__mask-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"></button>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"><span class="btn-text-hide">Show project</span></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"><span class="btn-text-hide">Share project</span></button>
           </div>
         </div>
         <div class="projects__images">
-          <img src="img/projects/work8.jpg" class="projects__img" alt="project 8">
+          <img src="img/projects/project8.jpg" class="projects__img" alt="project 8">
           <div class="projects__mask">
             <h3 class="projects__mask-title">This is image hover</h3>
             <p class="projects__mask-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"></button>
-            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--show"><span class="btn-text-hide">Show project</span></button>
+            <button type="button" name="button" class="projects__mask-btn projects__mask-btn--share"><span class="btn-text-hide">Share project</span></button>
           </div>
         </div>
       </div>
@@ -197,10 +200,10 @@
       <div class="footer__container">
         <div class="footer__side">
           <ul class="footer__list">
-            <li class="footer__item footer__item--first"><a class="footer__link" href="about.html">About</a></li>
+            <li class="footer__item"><a class="footer__link" href="about.html">About</a></li>
             <li class="footer__item"><a class="footer__link" href="index.html">Services</a></li>
             <li class="footer__item"><a class="footer__link" href="works.html">Works</a></li>
-            <li class="footer__item footer__item--last"><a class="footer__link" href="contact.html">Contact us</a></li>
+            <li class="footer__item"><a class="footer__link" href="contact.html">Contact us</a></li>
           </ul>
           <p class="footer__copyright">&copy; 2016 BlueBox. All Right Reserved.</p>
         </div>
